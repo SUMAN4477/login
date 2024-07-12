@@ -1,0 +1,87 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    /* background-image:; */
+    /* background-image: url(bldc.jpg); */
+    background-color: rgb(32, 96, 132);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    position: absolute;
+   left: 0px;
+   right: 0px;
+   bottom: 0px;
+   top: 0px;
+}
+form{
+    border: 2px solid black;
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: aqua;
+    /* box-shadow: 0 0 25px gold; */
+    animation: glow 0.8s infinite alternate;
+}
+@keyframes glow{
+ 0%{
+    box-shadow: 0 0 10px gold;
+ }
+ 10%{
+    box-shadow: 0 0 20px gold;
+ }
+ 30%{
+    box-shadow: 0 0 24px gold;
+ }
+ 50%{
+    box-shadow: 0 0 28px gold;
+ }
+ 70%{
+    box-shadow: 0 0 32px gold;
+
+}
+100%{
+    box-shadow: 0 0 40px gold;
+}
+}
+.field{
+    display: flex;
+    margin-bottom: 8px;
+}
+label{
+    width: 80px;
+}
+button[type="submit"]
+{
+    color: rgb(255, 255, 255);
+    background-color: green;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+
+}
+button[type="submit"]:hover
+{
+    border: 2px solid black;
+}
+button[type="cancel"]
+{
+    background-color: red;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;  
+    margin-left: 150px;
+
+}
+button[type="cancel"]:hover
+{
+    border: 2px solid black;
+}
+span{
+
+    color: red;
+}
